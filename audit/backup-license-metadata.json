@@ -1,0 +1,18 @@
+[
+  {
+    "repo": "wsl201/ts",
+    "repository_url": "https://github.com/wsl201/ts",
+    "repository_http_status": 200,
+    "license": null,
+    "default_branch": "main",
+    "license_http_status": 404
+  },
+  {
+    "repo": "hanzj/hanzj.github.io",
+    "repository_url": "https://github.com/hanzj/hanzj.github.io",
+    "repository_http_status": 200,
+    "license": null,
+    "default_branch": "master",
+    "license_http_status": 404
+  }
+]

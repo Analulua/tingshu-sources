@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "entry_package": "sources_by_shun",
+  "download_url": "https://raw.githubusercontent.com/wsl201/ts/59b6d19121e86fa01a95aab5876773fae9afc711/jar/sources_by_shun.jar",
+  "update_msg": "社区备份原包链接；本目录不镜像或修改二进制。请在源管理中自行勾选。",
+  "support_url": "https://github.com/wsl201/ts",
+  "desc": "社区备份；明确再分发许可尚未确认"
+}

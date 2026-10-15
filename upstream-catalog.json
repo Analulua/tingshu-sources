@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "repository": "Analulua/tingshu-sources",
+  "checked_date": "2026-10-15",
+  "default_subscription": "eprendre",
+  "distribution_mode": "metadata_only_upstream_urls",
+  "notice": "只整理指向公开上游原包的订阅元数据；未获得明确二进制再分发授权，不镜像、不修改上游JAR。公开可下载不代表开源许可。",
+  "packages": [
+    {
+      "id": "eprendre",
+      "distribution_kind": "community_backup",
+      "repository_url": "https://github.com/hanzj/hanzj.github.io",
+      "commit": "6c4841eb5b95c15a94f377914a2f643d5c0c88a2",
+      "entry_package": "sources_by_eprendre",
+      "version": 168,
+      "download_url": "https://raw.githubusercontent.com/hanzj/hanzj.github.io/6c4841eb5b95c15a94f377914a2f643d5c0c88a2/images/2025/sources_by_eprendre.jar",
+      "sha256": "4977474ac62040bda4bc36d5101e6d20bd56e5511434b8ea520a0eae5f752c0b",
+      "subscription_file": "subscriptions/eprendre.json",
+      "sampled_source_names": [
+        "哔哩哔哩",
+        "博看有声",
+        "电台电视",
+        "机核 GCORES",
+        "酷我畅听",
+        "懒人听书",
+        "声音巴士",
+        "云图有声"
+      ],
+      "sample_validation_scope": "本地正常源管理导入显示14项；博看公开章节已验证播放；其余采样范围参照已测子集，不代表所有节目或全包通过。",
+      "license_status": "no_explicit_redistribution_license_found",
+      "redistribution_allowed": false,
+      "binary_in_this_repository": false,
+      "upstream_subscription_url": "https://raw.githubusercontent.com/hanzj/hanzj.github.io/6c4841eb5b95c15a94f377914a2f643d5c0c88a2/images/2025/external_sources.json",
+      "upstream_project": "https://github.com/eprendre/tingshu"
+    },
+    {
+      "id": "freefly",
+      "distribution_kind": "publisher_repository",
+      "repository_url": "https://github.com/freefly22/tingshu-free-jar",
+      "commit": "74e7762a07ffbcac09e207fa2833ff7ee43c915a",
+      "entry_package": "free_all",
+      "version": 12,
+      "download_url": "https://raw.githubusercontent.com/freefly22/tingshu-free-jar/74e7762a07ffbcac09e207fa2833ff7ee43c915a/free_all_v12.jar",
+      "sha256": "acd19484fd3d2821b014f3b6f786e803c635e30d47f8f4e7554546eca344de19",
+      "subscription_file": "subscriptions/freefly.json",
+      "sampled_source_names": [
+        "酷我音乐",
+        "喜马拉雅",
+        "悦听吧"
+      ],
+      "sample_validation_scope": "已对所列3项做匿名短样本播放验证；全包包含其他源，未全部验证，当前现代版导入仍需回归。",
+      "license_status": "no_explicit_redistribution_license_found",
+      "redistribution_allowed": false,
+      "binary_in_this_repository": false,
+      "upstream_subscription_url": "https://raw.githubusercontent.com/freefly22/tingshu-free-jar/74e7762a07ffbcac09e207fa2833ff7ee43c915a/source.json"
+    },
+    {
+      "id": "m1ngzer",
+      "distribution_kind": "publisher_repository",
+      "repository_url": "https://github.com/m1ngzer/tingshu-sources",
+      "commit": "5902a600be4b83165a7bdc3340d37b3a400d65ed",
+      "entry_package": "sources_by_m1ngzer",
+      "version": 20261006,
+      "download_url": "https://raw.githubusercontent.com/m1ngzer/tingshu-sources/5902a600be4b83165a7bdc3340d37b3a400d65ed/sources_by_m1ngzer.jar",
+      "sha256": "ff488c1d8df08b009cb943480c7c42c7f6f2018fcee242d9908496b3044856ab",
+      "subscription_file": "subscriptions/m1ngzer.json",
+      "sampled_source_names": [
+        "书音FM",
+        "听友听书"
+      ],
+      "sample_validation_scope": "书音FM、听友听书已做匿名短样本播放验证；当前现代版原包导入未完整回归。",
+      "license_status": "no_explicit_redistribution_license_found",
+      "redistribution_allowed": false,
+      "binary_in_this_repository": false,
+      "upstream_subscription_url": "https://raw.githubusercontent.com/m1ngzer/tingshu-sources/5902a600be4b83165a7bdc3340d37b3a400d65ed/external_sources.json"
+    },
+    {
+      "id": "sound",
+      "distribution_kind": "community_backup",
+      "repository_url": "https://github.com/wsl201/ts",
+      "commit": "59b6d19121e86fa01a95aab5876773fae9afc711",
+      "entry_package": "my_sound_01",
+      "version": 1,
+      "download_url": "https://raw.githubusercontent.com/wsl201/ts/59b6d19121e86fa01a95aab5876773fae9afc711/jar/my_sound_01.jar",
+      "sha256": "f38693a8971601aa506b1ae9498ad7c41bc5c0801a0a9249e5e3d5ba7678fafc",
+      "subscription_file": "subscriptions/sound.json",
+      "sampled_source_names": [
+        "米听书"
+      ],
+      "sample_validation_scope": "仅米听书已做匿名短样本验证；原包其他源及当前现代版全包导入未验证。目录描述版本为1。",
+      "license_status": "no_explicit_redistribution_license_found",
+      "redistribution_allowed": false,
+      "binary_in_this_repository": false
+    },
+    {
+      "id": "shun",
+      "distribution_kind": "community_backup",
+      "repository_url": "https://github.com/wsl201/ts",
+      "commit": "59b6d19121e86fa01a95aab5876773fae9afc711",
+      "entry_package": "sources_by_shun",
+      "version": 1,
+      "download_url": "https://raw.githubusercontent.com/wsl201/ts/59b6d19121e86fa01a95aab5876773fae9afc711/jar/sources_by_shun.jar",
+      "sha256": "85e3558865b665684897a58867d0b6deb910607823b210f96b1d9c1c09a9a8cb",
+      "subscription_file": "subscriptions/shun.json",
+      "sampled_source_names": [
+        "有听网"
+      ],
+      "sample_validation_scope": "仅有听网已做匿名短样本验证；原包其他源及当前现代版全包导入未验证。目录描述版本为1。",
+      "license_status": "no_explicit_redistribution_license_found",
+      "redistribution_allowed": false,
+      "binary_in_this_repository": false
+    }
+  ]
+}

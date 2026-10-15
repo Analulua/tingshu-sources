@@ -1,0 +1,12 @@
+.build/
+__pycache__/
+*.pyc
+*.class
+*.dex
+*.jar
+*.apk
+*.jks
+*.keystore
+.env
+*.log
+
